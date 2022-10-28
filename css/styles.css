@@ -1,8 +1,82 @@
+body{
+    margin: 0;
+}
 nav{
-    height: 150px;
+    height: 80px;
+    background-color: white;
+    position: sticky;
+    top:0;
+    padding: 10px;
+}
+nav > div {
+    display: inline-block;
+}
+.nav-links{
+    float: right;
 }
 a{
+    padding: 10px;
     color: darkred; 
     text-decoration: none;
-    padding: ;
+}
+button{
+    background-color: aliceblue;
+    padding: 10px;
+}
+.hero-text{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+h1{
+    text-align: center;
+}
+.hero{
+    margin: 0;
+    background-image: url(https://images.pexels.com/photos/2062429/pexels-photo-2062429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.hero-container{
+    background-color: rgba(0,0,0,0.75);
+    height: 100%;
+    width: 100%;
+}
+.pricing{
+    column-count: 3;
+}
+.column{
+    background-color: aliceblue;
+   padding: 20px;
+}
+footer{
+    text-align: center;
+    height: 80px;
+    background-color: white;
+    padding: 10px 0;
+}
+.about-hero{
+    background-image: url(https://images.pexels.com/photos/3218467/pexels-photo-3218467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.locations{
+    column-count: 3;
+}
+.contact-hero{
+    background-image: url(https://images.pexels.com/photos/5244033/pexels-photo-5244033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.contact-section{
+    column-count: 2;
+}
+form{
+    width: 100%;
+    height: 300px;
+    padding: 50px;;
 }
